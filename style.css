@@ -83,3 +83,39 @@ img{
     justify-content: space-between;
     padding: 30 40;
 }
+
+
+@media (max-width: 720px) {
+    .main h1 {
+        font-size: 40px;
+        line-height: 40px;
+        margin-left: 5%;
+        display: flex;
+    }
+    .main nav h3{
+        display: flex;
+    }
+
+    .nav {
+        height: 30px;
+        padding: 0 10px;
+        /* display: flex; */
+    }
+
+    #nav-part-2 {
+        gap: 10px;
+        padding: 0 5px;
+    }
+
+    img {
+        height: 200px;
+        top: 20%;
+        left: 30%;
+    }
+    
+    .nav-part-3 {
+        width: 100%;
+        bottom: 10px;
+        padding: 10px;
+    }
+}
